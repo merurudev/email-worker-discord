@@ -1,6 +1,4 @@
-import { EmailMessage } from 'cloudflare:email';
 import { convert } from 'html-to-text';
-import { createMimeMessage } from 'mimetext';
 import PostalMime from 'postal-mime';
 
 export default {
