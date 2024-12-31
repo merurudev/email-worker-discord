@@ -1,9 +1,0 @@
-#:schema node_modules/wrangler/config-schema.json
-name = "email-worker-discord"
-main = "src/index.ts"
-compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
-send_metrics = false
-
-[vars]
-DISCORD_WEBHOOK = ""
